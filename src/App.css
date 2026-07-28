@@ -1,0 +1,77 @@
+/* Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #f8fafc);
+}
+
+/* Main Container */
+.container {
+    width: 88%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #1565c0;
+    font-size: 32px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Button Section */
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+/* Buttons */
+.button-container button {
+    padding: 12px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1976d2, #42a5f5);
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
+}
+
+/* Button Hover */
+.button-container button:hover {
+    background: linear-gradient(135deg, #0d47a1, #1565c0);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(13, 71, 161, 0.4);
+}
+
+/* Button Click Effect */
+.button-container button:active {
+    transform: scale(0.97);
+}
+
+/* Output Box */
+.output {
+    margin-top: 25px;
+    padding: 20px;
+    background: #f8fbff;
+    border-left: 6px solid #1976d2;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    min-height: 120px;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.08);
+}
